@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Binaries & archives
+ngrok.exe
+*.zip
+
+# Images in root (launcher icons)
+*.png
+
+# Flutter
+darija_translator66/build/
+darija_translator66/.dart_tool/
+darija_translator66/.idea/
