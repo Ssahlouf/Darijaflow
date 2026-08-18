@@ -78,8 +78,9 @@ Send a `.wav` or `.mp3` audio file and get a Darija transcription + English tran
 
 ## Interactive Docs
 Once the server is running, open in your browser:
+```
 http://localhost:8000/docs
-
+```
 
 ---
 
@@ -92,12 +93,9 @@ ipconfig
 Look for `IPv4 Address` e.g. `192.168.1.10`
 
 Set your Android app base URL to:
-
-
+```
 http://192.168.1.10:8000
-
-
-
+```
 Make sure your phone and PC are on the same Wi-Fi network.
 
 ---
@@ -117,11 +115,12 @@ flutter run
 ---
 
 ## Project Structure
-
+```
 darija-api/
-├── main.py # FastAPI app
-├── pipeline.py # ASR + translation pipeline
+├── main.py              # FastAPI app
+├── pipeline.py          # ASR + translation pipeline
 ├── requirements.txt
-├── .env # Your API keys (not committed)
+├── .env                 # Your API keys (not committed)
 └── darija_translator66/ # Flutter app
-└── lib/main.dart
+    └── lib/main.dart
+```
